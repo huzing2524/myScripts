@@ -11,10 +11,8 @@ function getRandom (n, m) {
     return num
 }
 
-var randomTime = getRandom(5, 15) * 1000  // 视频观看时间：5~15秒
 var num = 200;
-
 while(num > 1){
     swipe(device.width / 2, 1300, device.width / 2, 300, 2000);
-    sleep(randomTime);
+    sleep(getRandom(5, 15) * 1000);  // 视频观看时间：5~15秒
 }
