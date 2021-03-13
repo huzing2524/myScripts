@@ -1,5 +1,15 @@
 # myScripts
-脚本工具合集（抖音...）
+脚本工具合集
+- [《赘婿》小说爬虫](./zhuixu.py)
+  - Linux中空格和换行编码与Windows中不同，在小米手机阅读app中会出现乱码，需转换。
+    - 换行
+      - Linux: \n
+      - Windows: \n\r
+    - 空格
+      - Linux: LF
+      - Windows: CR LF
+    - 在NotePad++软件中: 编辑 -> 文档格式转换 -> 转为Windows. ![](./common/zhuixu.jpg)
+  
 - [Auto.js](https://github.com/hyb1996/Auto.js)
   - [Auto.js V4.1.1安卓apk安装包见releases界面](https://github.com/huzing2524/myScripts/files/6019727/auto.js.V4.1.1_alpha2.arm-v7.apk.zip)
     - Auto.js 开源版本已不再维护(原因参见Auto.js Pro FAQ)，后续将只维护Auto.js Pro专业版.
