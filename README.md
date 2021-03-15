@@ -9,6 +9,11 @@
       - Linux: LF
       - Windows: CR LF
     - 在NotePad++软件中: 编辑 -> 文档格式转换 -> 转为Windows. ![](./common/zhuixu.jpg)
+- [EasyPub下载地址](https://github.com/huzing2524/myScripts/releases)
+  - 作用：
+    - 生成目录
+    - TXT文档转换成EPUB/MOBI格式
+  - 使用方式：[参考文章](https://zhuanlan.zhihu.com/p/52400817)
   
 - [Auto.js](https://github.com/hyb1996/Auto.js)
   - [Auto.js V4.1.1安卓apk安装包见releases界面](https://github.com/huzing2524/myScripts/files/6019727/auto.js.V4.1.1_alpha2.arm-v7.apk.zip)
