@@ -12,9 +12,9 @@ from email.mime.text import MIMEText
 from bs4 import BeautifulSoup
 
 host_server = 'smtp.qq.com'  # QQ邮箱服务器地址
-# mail_sender = '******'  # 发件人邮箱账号
-# mail_password = '******'  # QQ邮箱授权码
-# mail_receiver = '******'  # 收件人邮箱账号
+mail_sender = '******'  # 发件人邮箱账号
+mail_password = '******'  # QQ邮箱授权码
+mail_receiver = '******'  # 收件人邮箱账号
 
 url = 'https://www.t66y.com/thread0806.php?fid=7&search=&page={}'
 proxies = {'https': '127.0.0.1:8888'}
@@ -61,7 +61,7 @@ print('latest_pub', latest_pub)
 if len(latest_pub) > 0:
     # 发送邮件通知
     # wxpy: 微信消息发送无法使用，不能扫码登录网页版微信
-    msg = MIMEText('{}'.format(', '.join(latest_pub)), 'plain', 'utf-8')  # 邮件正文
+    msg = MIMEText('{}'.format(' '.join(latest_pub)), 'plain', 'utf-8')  # 邮件正文
     msg['From'] = mail_sender  # 发件人邮箱账号
     msg['To'] = mail_receiver  # 收件人邮箱账号
     msg['Subject'] = '《1024社区》邀请码新贴发布提醒 -- 帖子数量: {} -- 时间: {}'.format(len(latest_pub), datetime.now().strftime(
