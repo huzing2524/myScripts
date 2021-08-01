@@ -1,0 +1,119 @@
+{
+    "id": 1,
+    "name": "根节点",
+    "children": [
+        {
+            "id": 2,
+            "name": "运动类",
+            "children": [
+                {
+                    "id": 4,
+                    "name": "田径",
+                    "children": [
+                        {
+                            "id": 5,
+                            "name": "赛跑",
+                            "children": [
+                                {
+                                    "id": 6,
+                                    "name": "短跑",
+                                    "children": [
+                                        {
+                                            "id": 8,
+                                            "name": "100米赛跑",
+                                            "children": []
+                                        },
+                                        {
+                                            "id": 9,
+                                            "name": "200米赛跑",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 7,
+                                    "name": "长跑",
+                                    "children": [
+                                        {
+                                            "id": 10,
+                                            "name": "1000米赛跑",
+                                            "children": []
+                                        },
+                                        {
+                                            "id": 11,
+                                            "name": "2000米赛跑",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "name": "游泳",
+                    "children": [
+                        {
+                            "id": 14,
+                            "name": "200米自由泳",
+                            "children": []
+                        },
+                        {
+                            "id": 15,
+                            "name": "200米蛙泳",
+                            "children": []
+                        },
+                        {
+                            "id": 16,
+                            "name": "200米混合泳",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "name": "乒乓球",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "交通工具",
+            "children": [
+                {
+                    "id": 17,
+                    "name": "汽车",
+                    "children": [
+                        {
+                            "id": 20,
+                            "name": "小汽车",
+                            "children": []
+                        },
+                        {
+                            "id": 21,
+                            "name": "货车",
+                            "children": []
+                        },
+                        {
+                            "id": 22,
+                            "name": "工程车",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "name": "火车",
+                    "children": []
+                },
+                {
+                    "id": 19,
+                    "name": "飞机",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
