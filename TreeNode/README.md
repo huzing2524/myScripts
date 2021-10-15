@@ -25,9 +25,9 @@
         ```sql
         SELECT u2.id, u2.name
         FROM (
-                 SELECT @id                                                                                c_ids,
-                        (SELECT @id := GROUP_CONCAT(parent_id) FROM index_tree WHERE FIND_IN_SET(id, @id)) p_ids,
-                        @l := @l + 1 AS                                                                    LEVEL
+                 SELECT @id                                                                                AS c_ids,
+                        (SELECT @id := GROUP_CONCAT(parent_id) FROM index_tree WHERE FIND_IN_SET(id, @id)) AS p_ids,
+                        @l := @l + 1                                                                       AS LEVEL
                  FROM index_tree,
                       (SELECT @id := '10', @l := 0) b
                  WHERE @id IS NOT NULL
