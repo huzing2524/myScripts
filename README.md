@@ -28,10 +28,4 @@
     - TXT文档转换成EPUB/MOBI格式
   - 使用方式：[参考文章](https://zhuanlan.zhihu.com/p/52400817)
   
-- [1024社区获取邀请码](1024_community)
-    - <input type="checkbox" checked>爬虫抓取最新发码帖子</input>自动登录
-    - <input type="checkbox">爬虫抓取最新发码帖子</input>验证码识别
-        - 第三方打码平台：要花钱
-        - 自己训练模型
-        - 爬虫抓取验证码图片
-    - <input type="checkbox" checked>爬虫抓取最新发码帖子</input>
+
